@@ -74,7 +74,7 @@ body {
 }
 
 .activities__img i {
-  color: red;
+  color: #e77255;
   font-size: 20px;
   position: absolute;
   top: 25px;
@@ -111,18 +111,21 @@ body {
 }
 
 /* Contact */
-/* #contact .contact__left {
-  float: left;
-  width: 50%;
-}
 
-#contact .contact__right {
-  float: left;
-  width: 50%;
-} */
+#contact {
+  margin: 40px 0;
+  background-color: hsl(12deg 67% 92%);
+}
 
 #contact .contact__left,
 #contact .contact__right {
   float: left;
   width: 50%;
+}
+
+#contact .contact__left {
+  background-image: url("./../images/mask.png");
+  height: auto;
+  background-size: cover;
+  background-position: center;
 }
