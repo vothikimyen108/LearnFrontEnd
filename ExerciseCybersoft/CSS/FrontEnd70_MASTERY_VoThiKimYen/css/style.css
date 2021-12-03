@@ -51,7 +51,7 @@ body {
 /* intro */
 
 #intro {
-    padding: 60px 100px;
+   padding: 50px 100px;
 }
 
  #intro .intro__left, .intro__right {
@@ -60,8 +60,12 @@ body {
 }
 
 .intro__left {
-    padding-right: 40px;
     box-sizing: border-box;
+}
+
+.intro__left p {
+    color: #797979;
+    line-height: 1.6;
 }
 
 .intro__right img {
