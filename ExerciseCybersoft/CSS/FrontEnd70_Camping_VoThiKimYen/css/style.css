@@ -129,3 +129,75 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+#contact .contact__content {
+  padding: 40px;
+  color:  hsl(0deg 0% 55%);
+}
+
+
+#contact .contact__dowload,
+#contact .contact__follow {
+  float: left;
+  margin-right: 2px;
+
+}
+
+.contact__social__list ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact__social__list ul li {
+  display: inline;
+  margin-right: 5px;
+}
+
+.contact__social__list ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #e77255;
+}
+
+/* footer */
+#footer {
+  background-color: hsl(12deg 67% 92%);
+  padding: 40px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+}
+
+#footer .footer__col__text, .footer__col {
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.footer__col__text   {
+  width: 40%;
+} 
+.footer__col__text p {
+  line-height: 1.6;
+}
+
+.footer__col {
+  width: 20%;
+} 
+
+.footer__link ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__link ul li {
+  margin-bottom: 10px;
+}
+
+.footer__link ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer__copyright {
+  text-align: center;
+}
