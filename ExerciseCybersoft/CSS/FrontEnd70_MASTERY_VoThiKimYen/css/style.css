@@ -64,8 +64,6 @@ body {
 /* intro */
 
 .intro {
-   padding: 50px 0px;
-   padding-right: 20px;
    width: 80%;
    margin: 0 auto;
 }
@@ -144,7 +142,7 @@ body {
 /* showcase */
 
 .showcase {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -155,17 +153,15 @@ body {
 
 .showcase__item {
     width: 25%;
-    box-sizing: border-box;
-    position: relative;
     float: left;
-    padding: 10px 20px 0px 0px;
+    padding: 40px;
 
 }
 
 .showcase__content {
     text-align: center;
     background-color: #002146;
-    padding: 25px;
+    padding: 30px;
     color: white;
 }
 
@@ -177,7 +173,7 @@ body {
 }
 
 .blog__content {
-    width: 80%;
+   width: 80%;
     margin: 0 auto;
 }
 
@@ -187,17 +183,19 @@ body {
 
 .blog__title  h1{
     font-weight: 900;
+    font-size: 25px;
+    color: #1b1d2d;
 }
 
 
 .blog__left, .blog__right {
     float: left;
-    padding: 10px 20px 0px 0px;
     margin: 0px;
 }
 
 .blog__left {
     width: 60%;
+    padding: 0px 80px 0px 0px;
 }
 
 .blog__right {
@@ -207,7 +205,6 @@ body {
 .blog__post {
     background-color: white;
     padding: 0 20px;
-    width: 90%;
 }
 
 .post__item {
@@ -239,13 +236,15 @@ body {
     box-sizing: border-box;
 }
 
-.post__content h4 {
+.blog__content h4 {
     margin: 10px 0px;
-    font-size: 15px;
+    font-size: 18px;
+    color: #1b1d2d;
 }
 .post__content h6 {
     margin: 10px 0;
     padding: 0;
+    font-size: 13px;
     color: #939393;
 }
 
@@ -308,11 +307,6 @@ body {
     border-right: 1px solid #000;
     padding-right: 20px;
     margin-right: 20px;
-}
-
-.event__content h4 {
-    margin: 8px 0;
-    font-size: 15px;
 }
 
 /* footer */
