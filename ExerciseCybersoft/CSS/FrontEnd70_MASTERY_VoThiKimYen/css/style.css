@@ -1,7 +1,9 @@
 body {
     margin: 0;
 }
-
+* {
+    box-sizing: border-box;
+}
 
 /* header */
 .header {
@@ -62,7 +64,10 @@ body {
 /* intro */
 
 .intro {
-   padding: 50px 100px;
+   padding: 50px 0px;
+   padding-right: 20px;
+   width: 80%;
+   margin: 0 auto;
 }
 
  .intro .intro__left, .intro__right {
@@ -95,28 +100,263 @@ body {
 
 /* statistical */
 .statistical {
-    background-color: #f6f6f6;
-    padding: 20px 100px;
+    background-color: hsl(0, 0%, 96%);
 }
 
+.statistical__list {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
 
 .statistical__item {
     float: left;
     width: 25%;
     box-sizing: border-box;
+    padding: 50px 0;
 }
 
 .statistical__num, .statistical__text {
     float: left;
-    width: 50%;
     box-sizing: border-box;
 }
 
-.statistical__num {
-    font-size: 30px;
-    /* text-align: center; */
-}
 .statistical__text {
-    font-size: 10px;
+    width: 50%;
+}
+
+.statistical__num h6{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.statistical__text h6{
+    font-size: 15px;
     text-transform: uppercase;
+    font-weight: 300;
+    line-height: 19px;
+    padding: 0;
+    margin: 5px 0px;
+}
+
+/* showcase */
+
+.showcase {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.showcase__list {
+    margin: 80px 0;
+    padding: 0;
+}
+
+.showcase__item {
+    width: 25%;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    padding: 10px 20px 0px 0px;
+
+}
+
+.showcase__content {
+    text-align: center;
+    background-color: #002146;
+    padding: 25px;
+    color: white;
+}
+
+/* blog */
+
+.blog {
+    background-color: #f6f6f6;
+    padding: 80px 0;
+}
+
+.blog__content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blog__content p {
+    color: #7d7d7d;
+}
+
+.blog__title  h1{
+    font-weight: 900;
+}
+
+
+.blog__left, .blog__right {
+    float: left;
+    padding: 10px 20px 0px 0px;
+    margin: 0px;
+}
+
+.blog__left {
+    width: 60%;
+}
+
+.blog__right {
+    width: 40%;
+}
+
+.blog__post {
+    background-color: white;
+    padding: 0 20px;
+    width: 90%;
+}
+
+.post__item {
+    border-bottom: 1px solid #eeeeee;
+    padding: 23px 0;
+    margin-bottom: 15px;
+}
+ 
+.post__item:last-child {
+    border: none;
+}
+
+
+.post__item .post__img {
+    float: left;
+    width: 30%;
+}
+
+.post__img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.post__item .post__content {
+    float: left;
+    width: 70%;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.post__content h4 {
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.post__content h6 {
+    margin: 10px 0;
+    padding: 0;
+    color: #939393;
+}
+
+.blog__view__all {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.event__item {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+.event__item:last-child {
+    margin-bottom: 0;
+}
+
+.event__calendar {
+    float: left;
+    width: 20%;
+}
+
+.event__content {
+    float: left;
+    width: 80%;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.event__calendar {
+    text-align: center;
+}
+
+.calendar__date {
+    padding:8px 0;
+    background-color: #fdc800;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.calendar__date h3 {
+    font-size: 23px;
+    margin: 3px;
+}
+
+.calendar__year {
+    background: #002146;
+    padding: 8px;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.event__time {
+    color: #002146;
+    font-weight: 550;
+}
+
+.event__time span:first-child {
+    border-right: 1px solid #000;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.event__content h4 {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+/* footer */
+.footer {
+    background-color: #002146;
+    color: white;
+}
+  
+.footer__content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer__top {
+    border-bottom: 1px solid #454545;
+    padding: 20px 0;
+}
+
+.footer .footer__col {
+    float: left;
+    padding-right: 40px;
+    width: 30%;
+  }
+  
+  
+  .footer__link ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer__link ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer__link ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer__bottom {
+    padding: 20px 0;
+  }
+
+  .footer__col .footer__contact li a i {
+    color: #fdc800;
+    margin-right: 10px;
 }
