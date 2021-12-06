@@ -25,9 +25,6 @@ body {
 .header__logo i {
     color:#fdc800;
     background-color: #002146;
-    /* width: 50px;
-    height: 50px;
-    line-height: 50px; */
     padding: 10px;
     text-align: center;
     border-radius: 50%;
@@ -74,10 +71,6 @@ body {
      width: 50%;
 }
 
-.intro__left {
-    box-sizing: border-box;
-}
-
 .intro__left p {
     color: #797979;
     line-height: 1.6;
@@ -111,13 +104,11 @@ body {
 .statistical__item {
     float: left;
     width: 25%;
-    box-sizing: border-box;
     padding: 50px 0;
 }
 
 .statistical__num, .statistical__text {
     float: left;
-    box-sizing: border-box;
 }
 
 .statistical__text {
@@ -234,7 +225,6 @@ body {
     float: left;
     width: 70%;
     padding-left: 30px;
-    box-sizing: border-box;
 }
 
 .blog__content h4 {
