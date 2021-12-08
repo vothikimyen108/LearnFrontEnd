@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+/* header */
+.header__content {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.header__logo {
+    position: absolute;
+    left: 2rem;
+}
+
+.header__logo a {
+    text-decoration: none;
+}
+
+.header .header__logo a h2 {
+    color: hsl(15deg 85% 47%);
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.header .header__logo h6 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+/* header menu*/
+.header__content nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    transform: all 1s;
+    color: hsl(201deg 100% 69%);
+}
+
+nav ul li.active a {
+    color: hsl(15deg 85% 47%);
+}
+
+/* carousel */
+.carousel {
+    background: url("./../images-layout1/banner2.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+
+.carousel__content {
+    position: absolute;
+    right: 20px;
+    text-align: right;
+    /* width: 40%; */
+}
+
+
+.carousel__content h1,p {
+    font-size: 4rem;
+    padding: 10px;
+    text-align: left;
+    background-color: hsl(200deg 4% 52% / 63%);
+    color: black;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+
+.carousel__content p {
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 0;
+    display: inline-block;
+}
