@@ -68,7 +68,6 @@ nav ul li.active a {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* position: relative; */
 }
 
 .carousel__content {
@@ -215,4 +214,61 @@ nav ul li.active a {
 
 .succed__item img {
     width: 100%;
+}
+
+.succeed__service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__item h3{
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.service__item ul {
+    list-style: none;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.service__item ul li {
+    margin: 10px 0px;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.service__item ul li {
+    color: hsl(270deg 1% 71%);
+}
+
+.service__item ul li i{
+    margin-right: 10px;
+    color:  hsl(195deg 84% 54%);
+}
+
+.service__img {
+    background-image: url("./../images-layout1/25.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 40%;
+    text-align: left;
+}
+
+.service__list {
+    background: linear-gradient(0deg, rgba(0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+    width: 100%;
+    height: 100%;
+}
+
+
+.service__list h6, .service__list span {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 20px;
+}
+
+.service__list span {
+    color:  hsl(195deg 84% 54%);
 }
