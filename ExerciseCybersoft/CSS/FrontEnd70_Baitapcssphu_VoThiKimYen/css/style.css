@@ -73,25 +73,146 @@ nav ul li.active a {
 
 .carousel__content {
     position: absolute;
-    right: 20px;
+    right: 7.5rem;
     text-align: right;
     /* width: 40%; */
 }
 
 
-.carousel__content h1,p {
-    font-size: 4rem;
-    padding: 10px;
+.carousel h1, .carousel p {
+    font-size: 5rem;
+    padding: 5px;
     text-align: left;
     background-color: hsl(200deg 4% 52% / 63%);
-    color: black;
+    color: hsl(0deg 0% 20%);
     font-weight: 300;
-    letter-spacing: 10px;
+    letter-spacing: 6px;
 }
 
-.carousel__content p {
+.carousel .carousel__content p {
     font-size: 1rem;
     margin-top: 20px;
     padding: 0;
     display: inline-block;
+    margin-right: 50px;
+}
+
+/* about */
+.about {
+    background-color: hsl(198deg 100% 58%);
+}
+
+
+.about__content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.about__content h2 {
+    font-size: 2rem;
+    padding: 5px;
+    text-align: left;
+    background-color: hsl(200deg 4% 52% / 63%);
+    font-weight: 300;
+    letter-spacing: 6px;
+    display: inline-block;
+}
+
+.about__content p {
+    font-size: 1.5rem;
+    margin: 10px 0px;
+    color: hsl(199deg 27% 82%);
+}
+
+/* intro */
+.intro__content{
+    width: 90%;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.intro__top {
+    text-align: center;
+}
+
+.intro__top h2 {
+    font-size: 4rem;
+    margin: 25px;
+    font-weight: 300;
+}
+
+.intro__top p {
+    font-size: 1.5rem;
+    margin: 5px;
+    color: hsl(277deg 4% 62%);
+    
+}
+
+.intro__list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.intro__item {
+    width: 50%;
+}
+
+.intro__item .intro__img img {
+    width: 100%;
+    height: 400px;
+}
+
+.intro__text {
+    padding: 2rem 3.5rem;
+    position: relative;
+}
+
+.intro__text h3 {
+    font-size: 2rem;
+    color: hsl(9deg 80% 64%);
+}
+
+.intro__text p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: hsl(277deg 4% 62%);
+}
+
+.intro__text i {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    color: hsl(198deg 100% 70%);
+}
+
+
+
+/* Succeed */
+.succeed__content {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.succeed__title h2{
+    font-size: 3rem;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.succeed__list__img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.succed__item {
+    width: 33%;
+}
+
+.succed__item img {
+    width: 100%;
 }
