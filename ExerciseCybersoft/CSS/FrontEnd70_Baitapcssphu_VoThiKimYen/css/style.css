@@ -125,7 +125,7 @@ nav ul li.active a {
 }
 
 /* intro */
-.intro__content{
+.intro__content {
     width: 90%;
     margin: 0 auto;
     padding: 4rem 0;
@@ -145,7 +145,7 @@ nav ul li.active a {
     font-size: 1.5rem;
     margin: 5px;
     color: hsl(277deg 4% 62%);
-    
+
 }
 
 .intro__list {
@@ -197,7 +197,7 @@ nav ul li.active a {
     padding-bottom: 4rem;
 }
 
-.succeed__title h2{
+.succeed__title h2 {
     font-size: 3rem;
     margin-bottom: 40px;
     font-weight: 300;
@@ -221,7 +221,7 @@ nav ul li.active a {
     justify-content: space-between;
 }
 
-.service__item h3{
+.service__item h3 {
     font-size: 2rem;
     margin: 10px 0;
 }
@@ -242,9 +242,9 @@ nav ul li.active a {
     color: hsl(270deg 1% 71%);
 }
 
-.service__item ul li i{
+.service__item ul li i {
     margin-right: 10px;
-    color:  hsl(195deg 84% 54%);
+    color: hsl(195deg 84% 54%);
 }
 
 .service__img {
@@ -253,22 +253,121 @@ nav ul li.active a {
     background-position: center;
     color: white;
     width: 40%;
+    height: 380px;
     text-align: left;
+    position: relative;
 }
 
 .service__list {
-    background: linear-gradient(0deg, rgba(0,0,0.8) 0%, rgba(0,0,0,0) 100%);
-    width: 100%;
-    height: 100%;
+    background: rgb(4,4,13);
+    background: linear-gradient(90deg, rgba(4,4,13,0.8550770650056898) 0%, rgba(3,3,11,0.7066176812521884) 100%, rgba(30,39,41,0.0959734235491071) 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 50px;
 }
 
 
 .service__list h6, .service__list span {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 300;
-    margin: 20px;
+    margin: 20px 30px;
 }
 
 .service__list span {
-    color:  hsl(195deg 84% 54%);
+    color: hsl(195deg 84% 54%);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+/* footer */
+.footer {
+    background-color: hsl(0deg 0% 14%);
+}
+
+.footer__content {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    padding: 2rem;
+}
+
+.footer__item {
+    flex: 1 auto;
+
+}
+
+.footer__item:nth-child(3), .footer__item:first-child {
+    flex: 3;
+}
+
+.footer__content h4 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer__item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer__item ul li {
+    margin-bottom: 10px;
+}
+
+.footer__item ul li a {
+    text-decoration: none;
+    color: hsl(171deg 6% 45%);
+    font-size: 1.3rem;
+}
+
+.footer__item {
+    padding: 20px 0;
+}
+
+.footer__item li a i {
+    color: #fdc800;
+    margin-right: 10px;
+}
+
+.footer__item p {
+    color: hsl(171deg 6% 45%);
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+.footer__item input {
+    padding: 8px;
+    width: 200px;
+}
+
+.footer__item button {
+    background-color: hsl(14deg 83% 53%);
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-left: -8px;
+}
+
+.footer__item h2 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.footer__item h3 {
+    color: hsl(171deg 6% 45%);
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.footer__item h3 span {
+    color: hsl(14deg 83% 53%);
+    font-size: 1.3rem;
 }
