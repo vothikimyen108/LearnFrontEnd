@@ -35,6 +35,7 @@ ul {
     right: 0;
     z-index: 100;
     position: fixed;
+    background-color: white;
 }
 
 .header__content {
@@ -631,6 +632,122 @@ nav ul li:hover .subnav-content {
     border-radius: 15px;
 }
 
+
+/* plan */
+
+.plan {
+    background-image: url("./../images/bg16.png");
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.plan__content {
+    margin: 0 auto;
+    width: 80%;
+    padding: 4rem 0;
+}
+
+.plan__title {
+    text-align: center;
+}
+
+.toggle-tabs {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+    display: flex;
+    border-radius: 6px;
+    height: 50px;
+    width: 235px;
+    background-size: 200%;
+    padding: 4px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 10px 20px 0 rgba(245, 95, 141, 0.1);
+}
+
+.toggle-tabs span {
+    width: 50%;
+}
+
+.toggle-tabs span:first-child{
+    background-color: #fff;
+    padding: 10px 0;
+    width: 50%;
+    border-radius: 6px;
+}
+
+.plan__list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.plan__item {
+    box-shadow: 1px 0 50px rgb(0 0 0 / 10%);
+    border-radius: 0.25rem;
+    transition: all .1s;
+    background-color: #fff;
+    width: 30%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3.5px solid transparent;
+      
+}
+
+.plan__item h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #070120;
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.price__num {
+    margin-bottom: 25px;
+    color: #f8ae56;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+small {
+    font-size: 18px;
+    color: #262626;
+    font-weight: 600;
+}
+
+.plan__item ul {
+    border-top: 1px solid #eaeaf4;
+    padding: 20px 0;
+}
+
+.plan__item ul li {
+    padding: 10px 0;
+}
+
+.plan__item ul li i {
+    background-color: #F55f8d1a;
+    padding: 10px;
+    border-radius: 50%;
+    color: #f5608e;
+    margin-right: 10px;
+}
+
+
+
+.plan__item:hover {
+    border: 3.5px solid transparent;
+    border-image: url("./../images/br.png") 1 round;
+  
+}
 
 
 
