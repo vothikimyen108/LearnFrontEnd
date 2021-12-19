@@ -351,7 +351,7 @@ nav ul li:hover .subnav-content {
     background-image: url("./../images/bg14.png");
     width: 100%;
 
-   background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -405,16 +405,112 @@ nav ul li:hover .subnav-content {
     margin: 0;
 }
 
+
+/* features */
+
+.features__content {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    padding: 4rem 0;
+}
+
+.features__left, .features__right {
+    width: 50%;
+}
+
+.features__right {
+    padding: 4rem 0;
+}
+
+.features__right img {
+    width: 100%;
+    animation: move 5s infinite;
+}
+
+
+.features__list {
+    margin: 30px 0;
+}
+
 .features__item {
     display: flex;
+    box-shadow: 0 0px 60px 0px rgb(0 0 0 / 10%);
+    padding: 30px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all 1s;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 80%;
+    transition: all .1s;
+
+}
+
+.features__item:hover {
+    background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+    ;
+    background-size: 200%;
+    color: #fff;
+}
+
+.features__item:hover .item__left i {
+    color: #fff;
+}
+
+.features__item:nth-child(2) {
+    margin-left: 3rem;
 }
 
 .item__left {
     width: 30%;
+    text-align: center;
+}
+
+.item__left i {
+    font-size: 80px;
+    color: rgb(245, 95, 141);
 }
 
 .item__right {
     width: 70%;
 }
 
+.item__right h4 {
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
 
+.item__right p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes move {
+    0% {
+        transform: rotate(1deg) translate(2px, 2px);
+    }
+
+    50% {
+        transform: rotate(-1deg) translate(-2px, -2px);
+    }
+
+    100% {
+        transform: rotate(1deg) translate(2px, 2px);
+    }
+}
