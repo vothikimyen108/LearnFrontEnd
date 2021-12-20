@@ -971,7 +971,7 @@ small {
 
 .logo__item {
     padding: 20px;
-    border-radius: 15px; 
+    border-radius: 15px;
 }
 
 
@@ -1011,6 +1011,34 @@ small {
     width: 3072px !important;
 }
 
+/* backtotop */
+.backtotop {
+
+    background: #f55f8d;
+    border-radius: 4px;
+    bottom: 15px;
+    color: #fff;
+    height: 50px;
+    position: fixed;
+    right: 15px;
+    width: 50px;
+    z-index: 999;
+    box-shadow: -4px 4px 24px -10px;
+    transition: all .8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .cd-top--fade-out { 
+    opacity: .5;
+  }
 
 :root {
     --swiper-theme-color: #f5608e;
