@@ -750,6 +750,125 @@ small {
 }
 
 
+.testimonial {
+    background-image: url("images/bg17.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.testimonial-title {
+    margin-bottom: 2rem;
+}
+
+.testimonial-content {
+    max-width: 1199px;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .testimonial-thumbs .testimonial-pic img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    padding: 4px;
+    position: relative;
+    z-index: 2;
+    background-color: pink;
+  }
+  
+  .testimonial-thumbs {
+    width: 300px;
+    margin: auto;
+    box-sizing: border-box;
+    height: 170px;
+    position: relative;
+  }
+
+  .testimonial-comment {
+    min-height: 300px;
+    width: 100%;
+  }
+
+  .testimonial-comment .swiper-wrapper {
+    padding-bottom: 20px;
+  }
+
+  .testimonial-thumbs .testimonial-pic {
+    padding: 30px 0 0;
+    transition: all 0.5s;
+  }
+
+  .testimonial-text {
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 10%);
+    margin: 20px 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    position: relative;
+  }
+
+  .testimonial-name {
+    font-size: 22px;
+    font-weight: 800;
+    color: #000;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+
+
+  .testimonial-name, .testimonial-position {
+    display: block;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .testimonial-position  {
+      font-size: 15px;
+      color: #f5608e;
+  }
+
+  .testimonial-text p {
+    color: #636363;
+    line-height: 30px;
+  }
+
+  .testimonial-icon {
+      position: absolute;
+      top: 10px;
+      transform: rotate(-180deg);
+  }
+
+  .testimonial-icon i {
+      font-size: 70px;
+      color: #f5608e;
+  }
+
+  .testimonial-thumbs .swiper-slide-thumb-active .testimonial-pic {
+    padding: 0 0 40px;
+  }
+  .testimonial-text {
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 10%);
+    margin: 20px 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  :root {
+    --swiper-theme-color: #f5608e;
+}
 
 @keyframes move {
     0% {

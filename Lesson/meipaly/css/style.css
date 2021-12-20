@@ -113,7 +113,7 @@ nav ul li:hover a {
 
 .arrow__down {
     margin-top: 2rem;
-
+    animation:arrow__down 2s infinite ;
 }
 
 /* service */
@@ -344,3 +344,215 @@ nav ul li:hover a {
     grid-column: 3 / span 2;
     grid-row: 3 / span 2;
 }
+
+/* count */
+.count {
+    background-color: black;
+    color: white;
+}
+
+
+
+.count__content {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.count__content h3 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.count__content p {
+    font-size: 20px;
+    color: #888888;
+}
+
+/* work */
+.work {
+    background-image: url(./../image-video/bussiness_img_1.jpg);
+    background-attachment: fixed;
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+  }
+  
+  .work__content {
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .work__title {
+    text-align: center;
+  }
+  
+  .work__item video {
+    width: 100%;
+  }
+
+  .work__title h6 {
+    font-size: 14px;
+    color: #e62b4a;
+    font-weight: 300;
+  }
+
+  .work__title h1 {
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .work__title p {
+    font-size: 16px;
+    color: #888888;
+    font-weight: 700;
+    margin: 20px 0;
+  }
+
+  
+  /* contact */
+  .contact {
+    padding: 5rem 0;
+  }
+  
+  .contact__content {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .contact__title {
+    text-align: center;
+  }
+  
+  .contact__title h1 {
+    font-size: 5rem;
+  }
+  
+  .contact__item {
+    display: flex;
+  }
+  
+  .contact__item-left {
+    width: 60%;
+  }
+  
+  .contact__item-right {
+    width: 40%;
+  }
+  
+  .contact__item-right form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  
+  .contact__item-right form input {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: 1px solid;
+    margin-bottom: 2rem;
+  }
+  
+  .contact__item-right form button {
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    padding: 2rem 0;
+    text-transform: uppercase;
+    border: none;
+  }
+
+  .contact__title h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .contact__title p {
+    color: #888888;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+
+  .demo {
+      width: 200px;
+      height: 200px;
+      background-color: #af2239;
+      position: relative;
+      animation: demo-animation 2s;
+      animation-iteration-count: infinite;
+
+  }
+
+  /* back to top */
+  .backToTop i {
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 4px;
+  }
+  
+  .backToTop {
+    opacity: 0;
+  }
+  
+  .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .cd-top--fade-out {
+    opacity: 0.5;
+  }
+
+  /* animation */
+  @keyframes demo-animation{
+    0%{
+        left:0;
+        top:0;
+        background-color: #af2239;
+    }
+    25% {
+        left:200px;
+        top:0;
+        background-color: blue;
+    }
+    50% {
+        left:200px;
+        top:200px;
+        background-color: #888888;
+    }
+    100% {
+        left: 0;
+        top:200px;
+        border-color: green;
+    }
+  }
+
+  @keyframes arrow__down {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+    to {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+  }
+  
+
